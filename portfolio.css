@@ -1,0 +1,282 @@
+.carousel 
+{
+    margin: 25px 0 50px;
+    background: #fff;
+    position: relative;
+    padding: 8px;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+}
+.carousel:before,.carousel:after
+{
+    z-index: -1;
+    position: absolute;
+    content: "";
+    bottom: 15px;
+    left: 10px;
+    width: 50%;
+    top: 80%;
+    max-width: 400px;
+    background: rgba(0, 0, 0, 0.7);
+    box-shadow: 0 15px 10px rgba(0, 0, 0, 0.7);
+    transform: rotate(-3deg);
+}
+.carousel:after
+{
+    transform: rotate(3deg);
+    right: 10px;
+    left: auto;
+}
+.carousel .carousel-item
+{
+    text-align: center;
+    min-height: 200px;
+}
+.carousel .carousel-item img
+{
+    max-width: 100%;
+    margin: 0 auto;
+    /* Align slide image horizontally center in Bootstrap v3 */
+}
+.carousel-control-prev,.carousel-control-next 
+{
+    width: 27px;
+    height: 54px;
+    overflow: hidden;
+    opacity: 1;
+    margin: auto 0;
+    background: none;
+    text-shadow: none;
+}
+.carousel-control-prev span,.carousel-control-next span
+{
+    width: 54px;
+    height: 54px;
+    display: inline-block;
+    background: #4a4a4a;
+    border-radius: 50%;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+}
+.carousel-control-prev span
+{
+    margin-right: -27px;
+    
+}
+.carousel-control-next span
+{
+    margin-left: -27px;
+    
+}
+.carousel-control-prev:hover span,.carousel-control-next:hover span
+{
+    background: #3b3b3b;
+}
+.carousel-control-prev i,.carousel-control-next i 
+{
+    font-size: 24px;
+    margin-top: 13px;
+}
+.carousel-control-prev
+{
+    margin-left: -28px;
+}
+.carousel-control-next
+{
+    margin-right: -28px;
+}
+.carousel-control-prev i
+{
+    margin-left: -24px;
+}
+.carousel-control-next i
+{
+    margin-right: -24px;
+}
+.r4
+{
+    background-image: url('./image/portpen.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+}
+#fbbtn
+{
+    position: absolute;
+    display: block;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-left: 5px;
+    margin-top: 18px;
+    background-image: url('./image/face.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-color: transparent;
+}
+#twtbtn
+{
+    position: absolute;
+    display: block;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-left: 45px;
+    margin-top: 18px;
+    background-image: url('./image/twit.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-color: transparent;
+}
+#instabtn
+{
+    position: absolute;
+    display: block;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-left: 80px;
+    margin-top: 18px;
+    background-image: url('./image/inst.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-color: transparent;
+}
+#linkdbtn
+{
+    position: absolute;
+    display: block;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-left: 120px;
+    margin-top: 18px;
+    background-image: url('./image/linked.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-color: transparent;
+}
+#utbbtn
+{
+    position: absolute;
+    display: block;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-left: 160px;
+    margin-top: 18px;
+    background-image: url('./image/youtube.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-color: transparent;
+}
+#wtsbtn
+{
+    position: absolute;
+    display: block;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-left:25px;
+    background-image: url('./image/whatsapplogo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-color: transparent;
+}
+
+#querybtn{
+    position: absolute;
+    display: block;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-left:1300px;
+    background-image: url('./image/ques.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-color: transparent;
+}
+.btn-btn-danger{
+    color: red;
+}
+#navbr1:hover
+{
+    text-decoration: underline;
+    text-decoration-color: blueviolet;
+}
+#navbr2:hover
+{
+    text-decoration: underline;
+    text-decoration-color: blueviolet;
+}
+#navbr3:hover
+{
+    text-decoration: underline;
+    text-decoration-color: blueviolet;
+}
+#navbr4:hover
+{
+    text-decoration: underline;
+    text-decoration-color: blueviolet;
+}
+#navbr5:hover
+{
+    text-decoration: underline;
+    text-decoration-color: blueviolet;
+}
+#navbr6:hover
+{
+    text-decoration: underline;
+    text-decoration-color: blueviolet;
+}
+#cb1:hover
+{
+    background-color: rgba(102, 8, 114, 0.932);
+    color: white;
+}
+#cb2:hover
+{
+    background-color: rgba(102, 8, 114, 0.932);
+    color: white;
+}
+#cb3:hover
+{
+    background-color: rgba(102, 8, 114, 0.932);
+    color: white;
+}
+#cb4:hover
+{
+    background-color: rgba(102, 8, 114, 0.932);
+    color: white;
+}
+#cb5:hover
+{
+    background-color: rgba(102, 8, 114, 0.932);
+    color: white;
+}
+#cb6:hover
+{
+    background-color: rgba(102, 8, 114, 0.932);
+    color: white;
+}
+#cb7:hover
+{
+    background-color: rgba(102, 8, 114, 0.932);
+    color: white;
+}
+#cb8:hover
+{
+    background-color: rgba(102, 8, 114, 0.932);
+    color: white;
+}
+
+.custom-popover
+{
+    --#{$prefix}popover-header-color:danger #{$popover-header-color};
+    
+    /* --bs-popover-max-width: 200px;
+    --bs-popover-border-color: var(--bs-success);
+    --bs-popover-header-bg: var(--bs-danger);
+    --bs-popover-header-color: var(--bs-warning);
+    --bs-popover-body-padding-x: 1rem;
+    --bs-popover-body-padding-y: .5rem; */
+}
